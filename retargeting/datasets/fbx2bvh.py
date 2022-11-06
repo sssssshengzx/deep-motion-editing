@@ -9,6 +9,7 @@ from os import listdir
 data_path = './Mixamo/'
 
 directories = sorted([f for f in listdir(data_path) if not f.startswith(".")])
+#jdjdjdjdj
 for d in directories:
     files = sorted([f for f in listdir(data_path + d) if f.endswith(".fbx")])
 
